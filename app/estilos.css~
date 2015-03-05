@@ -1,0 +1,6 @@
+.error
+{
+background: #FF6666;
+color: white;
+width: 40px;
+}

@@ -1,0 +1,18 @@
+'use strict';
+
+/* Controllers */
+
+var app = angular.module('app', []);
+
+app.controller('controlador', ['$scope', '$http',
+  function($scope, $http) {
+  $scope.y=0;
+  $scope.x=1;
+  $scope.f1=function()
+	{
+$scope.y='Menor de edad';
+		
+	};
+  }]);
+
+
